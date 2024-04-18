@@ -117,9 +117,9 @@ namespace csharp_functions
 
                 int[] numbers = new int[length];
 
-                Console.WriteLine("Inserisci i numeri:");
                 for (int i = 0; i < length; i++)
                 {
+                    Console.WriteLine($"Inserisci un numero {i + 1} / {length}");
                     numbers[i] = Convert.ToInt32(Console.ReadLine());
                 }
 
