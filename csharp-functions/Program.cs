@@ -108,13 +108,12 @@ namespace csharp_functions
                  --------------*/
                 // int[] numbers = { 2, 6, 7, 5, 3, 9 };
 
-                /*-------
-                  BONUS
-                -------*/
+                /*--------------------
+                  ESERCIZIO CON BONUS
+                ---------------------*/
 
                 Console.WriteLine("Quanti numeri vuoi inserire?");
                 int length = Convert.ToInt32(Console.ReadLine());
-
                 int[] numbers = new int[length];
 
                 for (int i = 0; i < length; i++)
